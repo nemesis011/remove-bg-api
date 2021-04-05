@@ -1,0 +1,18 @@
+org: trilogy
+app: team2-proxy-api
+service: team2-proxy-api
+
+frameworkVersion: '2'
+
+provider:
+  name: aws
+  runtime: nodejs12.x
+  lambdaHashingVersion: '20201221'
+
+functions:
+  hello:
+    handler: handler.hello
+    events:
+      - http:
+          path: /
+          method: get
