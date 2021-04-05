@@ -2,6 +2,14 @@
 
 Simple serverless api leveraging the [removebg API]() to save the output to S3 and share a pre-signed url.
 
+From
+
+![with-bg](./docs/with-bg.jpeg)
+
+To
+
+![with-bg](./docs/no-bg.jpg)
+
 ## Usage
 
 ### Deployment
