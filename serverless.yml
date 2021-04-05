@@ -1,4 +1,4 @@
-service: remove-background-api
+service: ${file(./package.json):name}
 
 frameworkVersion: "2"
 plugins:

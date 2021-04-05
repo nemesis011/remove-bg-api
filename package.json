@@ -1,7 +1,7 @@
 {
-  "name": "proxy-api",
+  "name": "remove-background-api",
   "version": "1.0.0",
-  "description": "<!-- title: 'AWS Simple HTTP Endpoint example in NodeJS' description: 'This template demonstrates how to make a simple REST API with Node.js running on AWS Lambda and API Gateway using the traditional Serverless Framework.' layout: Doc framework: v2 platform: AWS language: nodeJS authorLink: 'https://github.com/serverless' authorName: 'Serverless, inc.' authorAvatar: 'https://avatars1.githubusercontent.com/u/13742415?s=200&v=4' -->",
+  "description": "Simple serverless api leveraging the remove.bg API to save the output to S3 and share a pre-signed url.",
   "main": "removeBg.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
