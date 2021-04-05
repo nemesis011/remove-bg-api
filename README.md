@@ -1,6 +1,6 @@
 # Remove background from image
 
-Using the 
+Simple serverless api leveraging  [removebg API]()
 
 This template does not include any kind of persistence (database). For a more advanced examples check out the [examples repo](https://github.com/serverless/examples/) which includes Typescript, Mongo, DynamoDB and other examples.
 
