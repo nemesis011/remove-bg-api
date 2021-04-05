@@ -28,7 +28,7 @@ After successful deployment, you can call the created application via HTTP:
 
 ```bash
 curl --request POST \
-  --url {} \
+  --url {url} \
   --header 'Content-Type: application/json' \
   --data '{
     "image_url": "https://www.remove.bg/example.jpg",
@@ -42,10 +42,8 @@ Which should result in response similar to the following (removed `input` conten
 
 ```json
 {
-  {
   "message": "Processed image file succesfully uploaded",
   "url": "{signed-url}"
-}
 }
 ```
 
