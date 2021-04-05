@@ -27,7 +27,7 @@ serverless deploy
 After successful deployment, you can call the created application via HTTP:
 
 ```bash
-curl https://xxxxxxx.execute-api.{region.amazonaws.com/dev/
+curl https://xxxxxxx.execute-api.{region}.amazonaws.com/{stage}/
 ```
 
 Which should result in response similar to the following (removed `input` content for brevity):
