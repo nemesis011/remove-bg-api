@@ -68,4 +68,5 @@ Alternatively, you can use the sample payload with API client software like [Ins
 
 ## Acknowledgements
 
-* UMAN Fullstack Bootcamp Team 2
+* UMAN Fullstack Bootcamp Team 2 (Temi, Oli, Ross, Temi, Luke) - for the idea and finding the remove-gb api
+* 
