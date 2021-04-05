@@ -22,9 +22,6 @@ Equally `aws-cli` must be installed and configured with an AWS account
 serverless deploy
 ```
 
-To deploy without the dashboard you will need to remove `org` and `app` fields from the `serverless.yml`, and you won’t have to run `sls login` before deploying.
-
-After running deploy, you should see output similar to:
 
 ```bash
 Serverless: Packaging service...
