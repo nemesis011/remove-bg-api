@@ -29,7 +29,7 @@ After successful deployment, you can call the created application via HTTP:
 ```bash
 POST https://xxxxxxx.execute-api.{region}.amazonaws.com/{stage}/
 
-body {
+body: {
   "image_url": "https://www.remove.bg/example.jpg",
 	"image_size": "auto",
 	"image_filename": "example.jpg"
