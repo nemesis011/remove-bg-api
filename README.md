@@ -40,10 +40,10 @@ Which should result in response similar to the following (removed `input` conten
 
 ```json
 {
-  "message": "Go Serverless v2.0! Your function executed successfully!",
-  "input": {
-    ...
-  }
+  {
+  "message": "Processed image file succesfully uploaded",
+  "url": "{signed-url}"
+}
 }
 ```
 
