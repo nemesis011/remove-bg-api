@@ -8,13 +8,18 @@ Simple serverless api leveraging the [removebg API]() to save the output to S3 a
 
 This example is made to work with the Serverless Framework
 
+#### Pre-requisites
+
 SLS must be pre-installed.
 
-Equally `aws-cli` must be installe
+Equally `aws-cli` must be installed and configured with an AWS account
 
-```
-$ serverless login
-$ serverless deploy
+#### Deployment process
+
+* Edit the serverless.yml with the correct region and profi
+
+```bash
+serverless deploy
 ```
 
 To deploy without the dashboard you will need to remove `org` and `app` fields from the `serverless.yml`, and you won’t have to run `sls login` before deploying.
