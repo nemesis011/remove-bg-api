@@ -27,7 +27,13 @@ serverless deploy
 After successful deployment, you can call the created application via HTTP:
 
 ```bash
-curl https://xxxxxxx.execute-api.{region}.amazonaws.com/{stage}/
+POST https://xxxxxxx.execute-api.{region}.amazonaws.com/{stage}/
+
+body {
+  "image_url": "https://www.remove.bg/example.jpg",
+	"image_size": "auto",
+	"image_filename": "example.jpg"
+}
 ```
 
 Which should result in response similar to the following (removed `input` content for brevity):
