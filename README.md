@@ -17,6 +17,7 @@ Equally `aws-cli` must be installed and configured with an AWS account
 #### Deployment process
 
 * Edit the serverless.yml with the correct region and profile
+* Run the following command
 
 ```bash
 serverless deploy
