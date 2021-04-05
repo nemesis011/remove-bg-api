@@ -70,5 +70,5 @@ Alternatively, you can use the sample payload with API client software like [Ins
 
 * UMAN Fullstack Bootcamp Team 2 (Temi, Oli, Ross, Temi, Luke) - for the idea and finding the remove-gb api
 * [serverless-stack](https://serverless-stack.com/#guide)
-* [serverless framework / examples]()
+* [serverless framework / examples](https://github.com/serverless/examples)
 * Stack Overflow 😊
