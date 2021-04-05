@@ -47,7 +47,7 @@ curl --request POST \
 '
 ```
 
-Which should result in response similar to the following (removed `input` content for brevity):
+Which should result in response similar to the following:
 
 ```json
 {
