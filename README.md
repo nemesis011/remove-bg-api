@@ -1,6 +1,6 @@
 # Remove background from image
 
-Simple serverless api leveraging the [removebg API]() to save the output to S3 and share a pre-signed url.
+Simple serverless api leveraging the [remove.bg API](https://www.remove.bg) to save the output to S3 and share a pre-signed url.
 
 From
 
@@ -74,3 +74,4 @@ Use the sample payload with API client software like [Insomnia](https://insomnia
 * [serverless-stack](https://serverless-stack.com/#guide)
 * [serverless framework / examples](https://github.com/serverless/examples)
 * Stack Overflow 😊
+* [remove.bg api](https://www.remove.bg)
