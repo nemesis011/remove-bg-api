@@ -26,7 +26,9 @@ Equally `aws-cli` must be installed and configured with an AWS account
 #### Deployment process
 
 * Edit the serverless.yml with the correct region and profile
-* Create a .e
+* Create a .env file and populate it with the below info from the [remove.bg API](https://www.remove.bg) docs
+
+
 * Run the following command
 
 ```bash
