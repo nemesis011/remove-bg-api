@@ -65,3 +65,5 @@ serverless invoke local --function remove-bg --path payloads/example.json
 ```
 
 Alternatively, you can use the sample payload with API client software like [Insomnia](https://insomnia.rest/products/insomnia) or [Postman](https://www.postman.com/product/api-client/) or [Postwoman](https://post.liubing.me) to test the deployed function.
+
+## A
