@@ -1,6 +1,6 @@
 # Remove background from image
 
-Simple serverless api leveraging  [removebg API]()
+Simple serverless api leveraging the [removebg API]() to save the output to S3 and share a code 
 
 This template does not include any kind of persistence (database). For a more advanced examples check out the [examples repo](https://github.com/serverless/examples/) which includes Typescript, Mongo, DynamoDB and other examples.
 
