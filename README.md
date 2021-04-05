@@ -1,4 +1,5 @@
-# Remove background from image
+# Remove Background API
+> Serverless: Lambda + API Gateway + S3
 
 Simple serverless api leveraging the [remove.bg API](https://www.remove.bg) to save the output to S3 and share a pre-signed url.
 
