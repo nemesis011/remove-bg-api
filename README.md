@@ -55,4 +55,4 @@ You can invoke your function locally by using the following command:
 serverless invoke local --function remove-bg --path payloads/example.json
 ```
 
-Alternatively, you can use the sample payload with API testing softwa
+Alternatively, you can use the sample payload with API testing software like [Insomnia]() or [Postman]() to test the deployed function.
