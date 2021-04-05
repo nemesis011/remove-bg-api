@@ -55,28 +55,4 @@ You can invoke your function locally by using the following command:
 serverless invoke local --function remove-bg --path payloads/example.json
 ```
 
-Which should result in response similar to the following:
-
-```
-{
-  "statusCode": 200,
-  "body": "{\n  \"message\": \"Go Serverless v2.0! Your function executed successfully!\",\n  \"input\": \"\"\n}"
-}
-```
-
-
-Alternatively, it is also possible to emulate API Gateway and Lambda locally by using `serverless-offline` plugin. In order to do that, execute the following command:
-
-```bash
-serverless plugin install -n serverless-offline
-```
-
-It will add the `serverless-offline` plugin to `devDependencies` in `package.json` file as well as will add it to `plugins` in `serverless.yml`.
-
-After installation, you can start local emulation with:
-
-```
-serverless offline
-```
-
-To learn more about the capabilities of `serverless-offline`, please refer to its [GitHub repository](https://github.com/dherault/serverless-offline).
+Alternatively, 
