@@ -52,7 +52,7 @@ Which should result in response similar to the following (removed `input` conten
 You can invoke your function locally by using the following command:
 
 ```bash
-serverless invoke local --function remove-bg
+serverless invoke local --function remove-bg --path payloads/example.json
 ```
 
 Which should result in response similar to the following:
